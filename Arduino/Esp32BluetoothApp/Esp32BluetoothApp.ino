@@ -19,9 +19,9 @@
 BluetoothSerial ESP_BT; 
 
 // init PINs: assign any pin on ESP32
-int led_pin_1 = 26;     // On some ESP32 pin 2 is an internal LED, mine did not have one
-int led_pin_2 = 27;
-int led_pin_3 = 14;
+int led_pin_1 = 4;
+int led_pin_2 = 0;
+int led_pin_3 = 2;     // On some ESP32 pin 2 is an internal LED, mine did not have one
 
 // Parameters for Bluetooth interface
 int incoming;
