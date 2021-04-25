@@ -29,7 +29,6 @@ int incoming;
 void setup() {
   Serial.begin(19200);
   ESP_BT.begin("ESP32_Control"); //Name of your Bluetooth interface -> will show up on your phone
-  Serial.println("Bluetooth ready to pair");
 
   pinMode (led_pin_1, OUTPUT);
   pinMode (led_pin_2, OUTPUT);
