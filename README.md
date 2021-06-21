@@ -17,7 +17,7 @@ Code to control your ESP32 with your phone using bluetooth. Please make sure tha
 9b) you can connect LEDs to pins 26, 27 and 14 (dont forget to put a resistor of ~100 ohms in series per LED)
 
 # How to use
-youtube video will follow
+https://www.youtube.com/watch?v=aM2ktMKAunw
 
 Have fun ;-)
 
