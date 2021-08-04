@@ -1,5 +1,8 @@
-# Esp32BluetoothApp
-Code to control your ESP32 with your phone using bluetooth. Please make sure that your ESP32 has integrated Bluetooth. Device used for coding: ESP32-WROOM-32D. Youtube explanation will follow shortly
+# Esp32BluetoothApp Part 1
+Code to control your ESP32 with your phone using bluetooth. Please make sure that your ESP32 has integrated Bluetooth. Device used for coding: ESP32-WROOM-32D. Youtube explanation is available (see below).
+
+For bi-directional communication, please refer to Part 2:
+https://github.com/mo-thunderz/Esp32BluetoothAppPart2
 
 # Installation
 1) Download all files from this repository (Esp32BluetoothApp)
