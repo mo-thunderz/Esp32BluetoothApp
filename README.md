@@ -23,7 +23,7 @@ https://github.com/mo-thunderz/Esp32BluetoothAppPart2
 https://www.youtube.com/watch?v=aM2ktMKAunw
 
 # Updates
-* 28.09.2022 - MIT App inventor updated the BluetoothClient without backward compatibility. Code was switched to new client.
+* 28.09.2022 - MIT App inventor updated the BluetoothClient without backward compatibility. Code was switched to new client. Had to add some code to ask for Bluetooth permission.
 
 
 Have fun ;-)
