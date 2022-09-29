@@ -23,7 +23,7 @@ https://github.com/mo-thunderz/Esp32BluetoothAppPart2
 https://www.youtube.com/watch?v=aM2ktMKAunw
 
 # Updates
-* 28.09.2022 - MIT App inventor updated the BluetoothClient without backward compatibility. Code was switched to new client. Had to add some code to ask for Bluetooth permission.
+* 29.09.2022 - MIT App inventor updated the BluetoothClient without backward compatibility. As a result, the .aia file gave an error when loaded into MIT app inventor: "A problem occurred while loading this project. No upgrade strategy exists for BluetoothClient from version 6 to 7". I updated to the new BluetoothClient, but then I got the following error "need android.permission.BLUETOOTH_CONNECT permission". It turned out that the code now needs to ask for permission to use Bluetooth. Both problems are now fixed. 
 
 
 Have fun ;-)
