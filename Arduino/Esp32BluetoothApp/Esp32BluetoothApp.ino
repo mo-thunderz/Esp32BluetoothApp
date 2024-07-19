@@ -4,9 +4,9 @@
 // device used for tests: ESP32-WROOM-32D
 // 
 // App on phone has three buttons:
-// Button 1: 11 for ON and 10 for OFF
-// Button 2: 21 for ON and 20 for OFF
-// Button 3: 31 for ON and 30 for OFF
+// UP: 11 for ON and 10 for OFF
+// DOWN: 21 for ON and 20 for OFF
+// ON/OFF: 31 for ON and 30 for OFF
 //
 // Written by mo thunderz (last update: 20.4.2021)
 //
@@ -48,15 +48,15 @@ void loop() {
     
     switch (button) {
       case 1:  
-        Serial.print("Button 1:"); Serial.println(value);
+        Serial.print("UP:"); Serial.println(value);
         digitalWrite(led_pin_1, value);
         break;
       case 2:  
-        Serial.print("Button 2:"); Serial.println(value);
+        Serial.print("DOWN:"); Serial.println(value);
         digitalWrite(led_pin_2, value);
         break;
       case 3:  
-        Serial.print("Button 3:"); Serial.println(value);
+        Serial.print("ON/OFF:"); Serial.println(value);
         digitalWrite(led_pin_3, value);
         break;
     }
